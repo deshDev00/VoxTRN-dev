@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat with Recording</title>
+  <link rel="stylesheet" href="/VoxTRN-dev/static/dashboard.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Q/UC3n3BJfEwt5Ic8LKHpMZK9jTrtP4AnYusjJwKiaKApfQLhuN1/4BXm3Xz3P2wA6D0vwuqbF0RGFDHPT2aGw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+  <div class="div-11">
+    <div class="div-21">
+      <div class="div-31">
+        <div class="div-41">DESH AI Labs</div>
+        <div class="div-51">
+          <div class="div-61">Home</div>
+          <div class="div-71">
+            <div class="div-81">Products</div>
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/357b17177049a4cadcf26bb41f9e25f35d9e9d1e4d347f655d3c06fc759711a8?apiKey=6f2d5ce76b1344ab859311289250f408&"
+              class="img-11"
+            />
+          </div>
+          <div class="div-91">About</div>
+          <div class="div-101">Pricing</div>
+        </div>
+      </div>
+      <div class="div-111">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/36933447f17da2d5f536950ddd3522f2a3da0674198f0cbf73fbac6614711602?apiKey=6f2d5ce76b1344ab859311289250f408&"
+          class="img-21"
+        />
+        <div class="div-121">
+          Search
+          <span style="text-transform: lowercase">for anything</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    .div-11 {
+      background-color: var(--White, #fff);
+      display: flex;
+      align-items: center;
+      color: var(--Black, #000);
+      justify-content: center;
+      padding: 20px 60px;
+    }
+    @media (max-width: 991px) {
+      .div-11 {
+        padding: 0 20px;
+      }
+    }
+    .div-21 {
+      display: flex;
+      width: 100%;
+      max-width: 1116px;
+      gap: 20px;
+      justify-content: space-between;
+    }
+    @media (max-width: 991px) {
+      .div-21 {
+        max-width: 100%;
+        flex-wrap: wrap;
+      }
+    }
+    .div-31 {
+      display: flex;
+      gap: 20px;
+      text-transform: capitalize;
+      margin: auto 0;
+    }
+    @media (max-width: 991px) {
+      .div-31 {
+        flex-wrap: wrap;
+      }
+    }
+    .div-41 {
+      flex-grow: 1;
+      font: 600 20px Inter, sans-serif;
+    }
+    .div-51 {
+      align-self: start;
+      display: flex;
+      gap: 20px;
+      font-size: 16px;
+      font-weight: 400;
+      white-space: nowrap;
+      justify-content: space-between;
+      flex-grow: 1;
+      flex-basis: auto;
+    }
+    @media (max-width: 991px) {
+      .div-51 {
+        white-space: initial;
+      }
+    }
+    .div-61 {
+      font-family: Inter, sans-serif;
+    }
+    .div-71 {
+      justify-content: center;
+      display: flex;
+      gap: 8px;
+    }
+    @media (max-width: 991px) {
+      .div-71 {
+        white-space: initial;
+      }
+    }
+    .div-81 {
+      font-family: Inter, sans-serif;
+    }
+    .img-11 {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 12px;
+      margin: auto 0;
+    }
+    .div-91 {
+      font-family: Inter, sans-serif;
+    }
+    .div-101 {
+      font-family: Inter, sans-serif;
+    }
+    .div-111 {
+      background-color: #f6f6f6;
+      display: flex;
+      gap: 12px;
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: lowercase;
+      padding: 12px 40px;
+    }
+    @media (max-width: 991px) {
+      .div-111 {
+        padding: 0 20px;
+      }
+    }
+    .img-21 {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 20px;
+    }
+    .div-121 {
+      font-family: Inter, sans-serif;
+      margin: auto 0;
+    }
+  </style>
+<!--  -->
+
+  
+  <!--  -->
+  <div class="div">
+    <div class="div-2">
+      <div class="div-3">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/74c8038ed9acc4a25b8477d0a661cc090bd1ed3d0706d26c52bb2b2a09432e6b?apiKey=6f2d5ce76b1344ab859311289250f408&"
+          class="img"
+        />
+        <div class="div-4">
+          <div class="div-5">Vikashini</div>
+          <div class="div-6">AI/ML Engineer</div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="new-paragraph">
+        <p>"Lorem ipsom.... தமிழ் తెలుగు ગુજરાતી ಕನ್ನಡ বাঙ্গালী मराठी"</p>
+      </div>
+      <!--  -->
+      <div class="div-7">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/e870894e92487d867734521a7f303c10e93eda2017b08ec95fe1887715a8ee3a?apiKey=6f2d5ce76b1344ab859311289250f408&"
+          class="img-2"
+        />
+      </div>
+    </div>
+    <div class="div-8"></div>
+    <div class="div-9">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/bd3d3366c6fe49af48787a1d4933d04767a5ce3632ada261091a7cad7194890b?apiKey=6f2d5ce76b1344ab859311289250f408&"
+        class="img-3"
+      />
+      <div class="div-10">Dashboard</div>
+    </div>
+    <div class="div-11">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/eeec0eda3301edbb71719a05c793549ece2b1f93afbd6aed361c4e6095d18276?apiKey=6f2d5ce76b1344ab859311289250f408&"
+        class="img-4"
+      />
+      <div class="div-12">myTickets</div>
+    </div>
+    <div class="div-13">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/73861ccc572abce00bf4bce6d4d868d96ae08233265044ab5467913112b1b9ce?apiKey=6f2d5ce76b1344ab859311289250f408&"
+        class="img-5"
+      />
+      <div class="div-14">Schedules</div>
+    </div>
+    <div class="div-15">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/10505922f0ba346a2823ed049cca2536a6d0eb6e8331d7c33cadf91d6659c76f?apiKey=6f2d5ce76b1344ab859311289250f408&"
+        class="img-6"
+      />
+      <div class="div-16">myFulfillment</div>
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/b5f42c8e2edbad90bda4429c4dea8d06c7e0da4a7311082cb6b45f44d6916307?apiKey=6f2d5ce76b1344ab859311289250f408&"
+        class="img-7"
+      />
+    </div>
+    <div class="div-17">Dashboard</div>
+    <div class="div-18">
+      <div class="div-19">Orders</div>
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/855f01708fb2620afa78b48f1170bafb6077e81fbf3fd74eb7da148e475c0a55?apiKey=6f2d5ce76b1344ab859311289250f408&"
+        class="img-8"
+      />
+    </div>
+    <div class="div-20">Orders preparation</div>
+    <div class="div-21">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/4a7226e3010a24fa63a365f0e8ca12255c6d3eb2197db2ed5c0d6df2e58711a3?apiKey=6f2d5ce76b1344ab859311289250f408&"
+        class="img-9"
+      />
+      <div class="div-22">Settings</div>
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/9de9ccfa02749782228fb556c71e5a142b03f61aaf0e85afd508a2e973bcb722?apiKey=6f2d5ce76b1344ab859311289250f408&"
+        class="img-10"
+      />
+    </div>
+    <div class="div-23">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/6193a2dcb615a87199902e6d487eb6d9f6add619046f737620744e659608f7ce?apiKey=6f2d5ce76b1344ab859311289250f408&"
+        class="img-11"
+      />
+      <div class="div-24">Help</div>
+    </div>
+    <div class="div-25">
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/8e4de85eaaf265194d9c7483d9dc2103bb5e71858784b79496350b3773203cb8?apiKey=6f2d5ce76b1344ab859311289250f408&"
+        class="img-12"
+      />
+      <div class="div-26" id="logoutButton">Logout Account</div>
+    </div>
+    
+  </div>
+  <style>
+    .new-paragraph {
+      position: absolute;
+      top: 160px; /* Adjust the top distance as needed */
+      left: 400px; /* Position it to the right of the sidebar */
+      width: 1000px;
+      color: #aaabad;
+      font: 400 50px Inter, sans-serif;
+      width: 60%; /* Set the width of the paragraph */
+    }
+    .div {
+      align-items: start;
+      /* border-radius: 12px; */
+      border-color: rgba(0, 0, 0, 0.1);
+      border-style: solid;
+      border-right-width: 1px;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      padding: 24px 0 24px 24px;
+    }
+    .div-2 {
+      display: flex;
+      width: 100%;
+      gap: 10px;
+    }
+    .div-3 {
+      display: flex;
+      gap: 12px;
+    }
+    .img {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 44px;
+    }
+    .div-4 {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      margin: auto 0;
+    }
+    .div-5 {
+      color: #aaabad;
+      font: 600 14px/143% Poppins, sans-serif;
+    }
+    .div-6 {
+      color: var(--Black, #030723);
+      letter-spacing: 0.4px;
+      text-transform: uppercase;
+      margin-top: 4px;
+      font: 500 10px/120% Poppins, sans-serif;
+    }
+    .div-7 {
+      align-items: start;
+      border-radius: 8px;
+      border-color: rgba(246, 246, 246, 1);
+      border-style: solid;
+      border-width: 1px;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto 0;
+      padding: 6px;
+    }
+    .img-2 {
+      aspect-ratio: 0.5;
+      object-fit: auto;
+      object-position: center;
+      width: 8px;
+    }
+    .div-8 {
+      border-radius: 2px;
+      background-color: #f6f6f6;
+      margin-top: 24px;
+      height: 2px;
+    }
+    .div-9 {
+      border-radius: 8px;
+      display: flex;
+      margin-top: 24px;
+      gap: 12px;
+      font-size: 14px;
+      color: var(--Black, #030723);
+      font-weight: 500;
+      white-space: nowrap;
+      letter-spacing: -0.28px;
+      line-height: 143%;
+      padding: 10px 12px;
+    }
+    @media (max-width: 991px) {
+      .div-9 {
+        white-space: initial;
+      }
+    }
+    .img-3 {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 20px;
+    }
+    .div-10 {
+      font-family: Poppins, sans-serif;
+      flex: 1;
+    }
+    .div-11 {
+      border-radius: 8px;
+      display: flex;
+      margin-top: 8px;
+      gap: 12px;
+      font-size: 14px;
+      color: #000;
+      font-weight: 500;
+      white-space: nowrap;
+      letter-spacing: -0.28px;
+      line-height: 143%;
+      padding: 10px 12px;
+    }
+    @media (max-width: 991px) {
+      .div-11 {
+        white-space: initial;
+      }
+    }
+    .img-4 {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 20px;
+    }
+    .div-12 {
+      font-family: Poppins, sans-serif;
+    }
+    .div-13 {
+      border-radius: 8px;
+      display: flex;
+      margin-top: 8px;
+      gap: 12px;
+      font-size: 14px;
+      color: var(--Black, #030723);
+      font-weight: 500;
+      white-space: nowrap;
+      letter-spacing: -0.28px;
+      line-height: 143%;
+      padding: 10px 12px;
+    }
+    @media (max-width: 991px) {
+      .div-13 {
+        white-space: initial;
+      }
+    }
+    .img-5 {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 20px;
+    }
+    .div-14 {
+      font-family: Poppins, sans-serif;
+      flex: 1;
+    }
+    .div-15 {
+      border-radius: 8px;
+      background-color: #f0f5ff;
+      display: flex;
+      margin-top: 8px;
+      gap: 12px;
+      font-size: 14px;
+      color: var(--Black, #030723);
+      font-weight: 500;
+      white-space: nowrap;
+      letter-spacing: -0.28px;
+      line-height: 143%;
+      padding: 10px 12px;
+    }
+    @media (max-width: 991px) {
+      .div-15 {
+        padding-right: 20px;
+        white-space: initial;
+      }
+    }
+    .img-6 {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 20px;
+    }
+    .div-16 {
+      font-family: Poppins, sans-serif;
+      flex: 1;
+    }
+    .img-7 {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 16px;
+      margin: auto 0;
+    }
+    .div-17 {
+      color: #455a64;
+      letter-spacing: -0.24px;
+      margin: 20px 0 0 14px;
+      font: 500 12px/133% Poppins, sans-serif;
+    }
+    @media (max-width: 991px) {
+      .div-17 {
+        margin-left: 10px;
+      }
+    }
+    .div-18 {
+      border-radius: 8px;
+      background-color: #f0f5ff;
+      display: flex;
+      gap: 2px;
+      font-size: 12px;
+      color: var(--Black, #030723);
+      font-weight: 500;
+      white-space: nowrap;
+      letter-spacing: -0.24px;
+      line-height: 133%;
+      margin: 12px 0 0 14px;
+      padding: 8px 1px 0 12px;
+    }
+    @media (max-width: 991px) {
+      .div-18 {
+        margin-left: 10px;
+        white-space: initial;
+      }
+    }
+    .div-19 {
+      font-family: Poppins, sans-serif;
+      flex: 1;
+    }
+    .img-8 {
+      aspect-ratio: 0.42;
+      object-fit: auto;
+      object-position: center;
+      width: 10px;
+      align-self: start;
+      margin-top: 9px;
+    }
+    .div-20 {
+      color: #455a64;
+      letter-spacing: -0.24px;
+      margin: 12px 0 0 14px;
+      font: 500 12px/133% Poppins, sans-serif;
+    }
+    @media (max-width: 991px) {
+      .div-20 {
+        margin-left: 10px;
+      }
+    }
+    .div-21 {
+      border-radius: 8px;
+      display: flex;
+      margin-top: 16px;
+      gap: 12px;
+      font-size: 14px;
+      color: var(--Black, #030723);
+      font-weight: 500;
+      white-space: nowrap;
+      letter-spacing: -0.28px;
+      line-height: 143%;
+      padding: 10px 12px;
+    }
+    @media (max-width: 991px) {
+      .div-21 {
+        padding-right: 20px;
+        white-space: initial;
+      }
+    }
+    .img-9 {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 20px;
+    }
+    .div-22 {
+      font-family: Inter, sans-serif;
+      flex: 1;
+    }
+    .img-10 {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 16px;
+      margin: auto 0;
+    }
+    .div-23 {
+      border-radius: 8px;
+      display: flex;
+      margin-top: 309px;
+      gap: 12px;
+      font-size: 14px;
+      color: var(--Black, #030723);
+      font-weight: 500;
+      white-space: nowrap;
+      letter-spacing: -0.28px;
+      line-height: 143%;
+      padding: 10px 12px;
+    }
+    @media (max-width: 991px) {
+      .div-23 {
+        margin-top: 40px;
+        white-space: initial;
+      }
+    }
+    .img-11 {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 20px;
+    }
+    .div-24 {
+      font-family: Inter, sans-serif;
+      flex: 1;
+    }
+    .div-25 {
+      border-radius: 8px;
+      display: flex;
+      margin-top: 8px;
+      gap: 12px;
+      font-size: 14px;
+      color: #ff0a00;
+      font-weight: 500;
+      letter-spacing: -0.28px;
+      line-height: 143%;
+      padding: 10px 12px;
+    }
+    .img-12 {
+      aspect-ratio: 1;
+      object-fit: auto;
+      object-position: center;
+      width: 20px;
+    }
+    .div-26 {
+      font-family: Inter, sans-serif;
+      flex: 1;
+    }
+
+    .div-26:hover {
+  cursor: pointer;
+  background-color: #f0f0f0; /* Change background color on hover */
+}
+
+/* Add active effect */
+.div-26:active {
+  background-color: #e0e0e0; /* Change background color when clicked */
+}
+
+/* Add focus effect (for keyboard navigation) */
+.div-26:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2); /* Add custom focus outline */
+}
+  </style>
+  
+  </div>
+
+
+  <!-- Welcome message container -->
+  <div id="welcome-message-container">
+    <div id="welcome-message">Welcome to DeshAI Translation Service!</div>
+  </div>
+
+  <!-- Chatbox container -->
+  <div id="chatbox">
+    <div id="chat-messages">
+      <!-- Chat messages will be displayed here -->
+    </div>
+    <div id="message-input">
+      <button id="startRecording">Start Recording</button>
+      <button id="stopRecording" disabled>Stop Recording</button>
+    </div>
+    
+  </div>
+
+  <!-- JavaScript file -->
+  <script src="/VoxTRN-dev/static/audiorec.js"></script>
+</body>
+</html>

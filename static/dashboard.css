@@ -1,0 +1,67 @@
+/* Styles for welcome message container */
+#welcome-message-container {
+  position: fixed;
+  bottom: 430px; /* Adjust the bottom distance as needed */
+  right: 20px; /* Adjust the right distance as needed */
+  width: 500px; /* Same width as the chatbox */
+  background-color: #64b5f6; /* Light blue color */
+  color: #fff; /* White text color */
+  text-align: center; /* Center align text */
+  padding: 10px; /* Padding around the welcome message */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  z-index: 1; /* Ensure welcome message appears above chatbox */
+}
+
+#welcome-message {
+  font-weight: bold; /* Bold font weight */
+}
+
+/* Styles for chat box positioning and appearance */
+/* Styles for chat box positioning and appearance */
+#chatbox {
+  position: fixed;
+  bottom: 20px; /* Adjust the bottom distance as needed */
+  right: 20px; /* Adjust the right distance as needed */
+  width: 500px; /* Increased width */
+  height: 400px; /* Increased height */
+  background-color: #e0f2f1; /* Light blue color */
+  border: 1px solid #90caf9; /* Light blue border color */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Hide overflow */
+}
+#chat-messages {
+  flex: 1;
+  overflow-y: scroll;
+  padding: 10px;
+}
+.message {
+  margin-bottom: 10px; /* Add space between messages */
+  padding: 10px;
+  border-radius: 5px; /* Rounded corners */
+  background-color: #fff; /* White background color */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+.bot-message {
+  align-self: flex-start; /* Align bot messages to the left */
+}
+#message-input {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: #fff; /* White background color */
+}
+ 
+#startRecording,
+#stopRecording {
+  cursor: pointer;
+  padding: 12px 20px; /* Increased padding for larger buttons */
+  margin-right: 10px;
+  border: none;
+  border-radius: 8px; /* Increased border radius for rounded corners */
+  color: #fff;
+  background-color: #64b5f6; /* Light blue button color */
+  font-size: 16px; /* Increased font size */
+}
