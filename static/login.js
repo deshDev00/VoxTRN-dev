@@ -1,4 +1,4 @@
-const serverAddress = 'https://3.130.175.176.nip.io';
+
 document.addEventListener('DOMContentLoaded', function() {
     const NextButton = document.querySelector(".form-button");
     const Password = document.querySelector("#txtPassword");
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if ((usernameValue === 'demouser1' && passwordValue === 'pwd123') || 
           (usernameValue === 'demouser2' && passwordValue === 'pwd247')) {
         // Redirect to the dashboard page
-        window.location.href = serverAddress + "/dashboard";
+        window.location.href = "/VoxTRN-dev/templates/dashboard.html";
       } else {
         alert('Invalid username or password. Please try again.');
       }
